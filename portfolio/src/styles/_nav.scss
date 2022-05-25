@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d1;
+
+    &__items {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 20%;
+        }
+    }
+}
