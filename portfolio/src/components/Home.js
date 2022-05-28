@@ -2,6 +2,7 @@ import Nav from "../reusableComponents/Nav"
 import CenteredCont from "../reusableComponents/CenteredCont"
 import jacobWestby from "../images/jacob-westby.jpg";
 import Projects from "./Projects";
+import Testemonials from "./Testemonials";
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <CenteredCont>
                 <main>
                     <Projects />
+                    <Testemonials />
                 </main>
             </CenteredCont>
         </>
