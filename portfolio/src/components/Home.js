@@ -3,6 +3,7 @@ import CenteredCont from "../reusableComponents/CenteredCont"
 import jacobWestby from "../images/jacob-westby.jpg";
 import Projects from "./Projects";
 import Testemonials from "./Testemonials";
+import Contact from "./Contact";
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
                 <main>
                     <Projects />
                     <Testemonials />
+                    <Contact />
                 </main>
             </CenteredCont>
         </>
