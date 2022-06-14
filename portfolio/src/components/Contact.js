@@ -41,7 +41,7 @@ const Contact = () => {
                     <input value={initialState.name} name="name" type="text" required placeholder="Your name.." onChange={handleChange} />
 
                     <label htmlFor="email">Email</label>
-                    <input value={initialState.email} name="email" type="text" required placeholder="Email.." onChange={handleChange} />
+                    <input value={initialState.email} name="email" type="text" required placeholder="Your email.." onChange={handleChange} />
 
                     <label htmlFor="message">Message</label>
                     <input value={initialState.message} name="message" type="textarea" required placeholder="Your question or message here.." onChange={handleChange} />

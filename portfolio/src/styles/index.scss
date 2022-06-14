@@ -5,3 +5,16 @@
 @import "testemonials";
 @import "contact";
 @import "footer";
+
+body {
+    background-image: url("../images/background.svg");
+    background-size:auto;
+    background-position: 0 -1200px;
+    background-repeat: no-repeat;
+}
+
+@include phone {
+    body {
+        background-position: -200px -3750px;
+    }
+}
