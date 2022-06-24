@@ -4,6 +4,8 @@ import Home from './components/Home.js';
 import Nav from './components/reusableComponents/Nav.js';
 import Footer from './components/reusableComponents/Footer.js';
 
+import HTMLList from './projects/HTMLList.js';
+
 import reactGame from './images/reactGame.png';
 import genesis from './images/genesis.png';
 import backAccount from './images/bankAccount.png';
@@ -18,11 +20,12 @@ import icons8Github from "./images/icons8Github.svg";
 import icons8Linkedin from "./images/icons8Linkedin.svg";
 import { useEffect, useState } from 'react';
 import ProjectsPage from './components/ProjectsPage.js';
+import DisplayHTML from './components/DisplayHTML.js';
 
 
 function App() {
 
-  const [instaPics, setInstaPics] = useState([{}])
+  // const [instaPics, setInstaPics] = useState([{}])
 
   const projects = [
     {
@@ -64,18 +67,18 @@ function App() {
     return currentAge;
   };
 
-  useEffect(() => {
-    getGram();
-  }, []);
+  // useEffect(() => {
+  //   getGram();
+  // }, []);
 
-  const getGram = async () => {
-    const response = await fetch('https://graph.instagram.com/v11.0/andreahansson_/media');
-    const data = await response.json()
+  // const getGram = async () => {
+  //   const response = await fetch('https://graph.instagram.com/v11.0/andreahansson_/media');
+  //   const data = await response.json()
 
-    setInstaPics(data);
-  };
+  //   setInstaPics(data);
+  // };
 
-  console.log(instaPics)
+  // console.log(instaPics)
 
 
 
@@ -87,6 +90,7 @@ function App() {
         <Route path="/components/aboutpage" element={<AboutPage />} />
         <Route path="/components/contactpage" element={<ContactPage />} />
         <Route path="/components/projectspage" element={<ProjectsPage projects={projects} />} />
+        <Route path="/components/displayhtml" element={<DisplayHTML />} />
       </Routes>
       <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
     </BrowserRouter>
