@@ -5,12 +5,39 @@
 @import "testemonials";
 @import "contact";
 @import "footer";
+@import "about";
+@import "contactPage";
+@import "projectsPage";
 
-body {
+%fixedBackground {
     background-image: url("../images/background.svg");
-    background-size:auto;
-    background-position: 0 -1200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.home-background {
+    @extend %fixedBackground;
+}
+
+.about-background {
+    @extend %fixedBackground;
+    background-position: 0 -1220px;
+}
+
+.contact-background {
+    @extend %fixedBackground;
+    background-position: 0 -4000px;
+}
+
+.projects-background {
+    @extend %fixedBackground;
+    background-position: 0 -2200px;
+}
+
+h1,h2,h3,h4,.logo {
+    font-family: 'Rubik', sans-serif;    
 }
 
 @include phone {

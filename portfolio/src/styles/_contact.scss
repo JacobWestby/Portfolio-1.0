@@ -1,5 +1,5 @@
 %button {
-    width: 50%;
+    width: 30%;
     align-self: center;
     min-height: 8vh;
     border: none;
@@ -24,7 +24,7 @@
 
         h4 {
             margin: 0;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
 
         form {
@@ -32,6 +32,11 @@
             flex-direction: column;
             width: 100%;
             margin-top: 3rem;
+            background-color: rgba(203, 203, 203, 0.303);
+            backdrop-filter: blur(5px);
+            padding: 2rem;
+            box-shadow: rgba(0, 0, 0, 0.3) 1px 3px 8px;
+
 
             label {
                 margin-bottom: 1rem;
@@ -41,11 +46,17 @@
                 margin-bottom: 1.5rem;
                 border: none;
                 border-bottom: solid 1px rgba(0, 0, 0, 0.514);
+                background-color: rgba(0, 0, 0, 0);
+                line-height: 2rem;
             }
 
             input:focus {
                 outline: none;
                 border-bottom: solid 1px blue;
+            }
+
+            input::placeholder {
+                background-color: rgba(0, 0, 0, 0);
             }
 
             button {
@@ -60,7 +71,15 @@
         min-height: 70vh;
 
         &__form {
-           width: 90%; 
+            width: 90%;
+            
+            form {
+                padding: 1rem;
+
+                button {
+                    width: 50%;
+                }
+            }
         }
     }
 }

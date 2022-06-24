@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 const Nav = ({ menuBurger }) => {
@@ -28,10 +28,11 @@ const Nav = ({ menuBurger }) => {
         <>
             <div className="navbar">
                 <div className="navbar__items">
-                    <h1>jw</h1>
+                    <Link to="/" className='logo'>jw</Link>
                     <ul className="navbar__items-list hidden">
-                        <li>About Me</li>
-                        <li>Contact</li>
+                        <Link to="/components/aboutpage" className="navbar__items-list-link">About Me</Link>
+                        <Link to="/components/contactpage" className="navbar__items-list-link">Contact</Link>
+                        <Link to="/components/projectspage" className="navbar__items-list-link">Projects</Link>
                     </ul>
                     <img className="burgerMenu" onClick={showMenuToggle} src={menuBurger} alt="Burger" />
                     {/* Menu icon by Icons8 */}
