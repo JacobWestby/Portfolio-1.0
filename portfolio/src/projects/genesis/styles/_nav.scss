@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    a {
+      text-decoration: none;
+      color: #111111;
+    }
+  }
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  align-self: center;
+
+  &-item {
+    margin-right: 29px;
+  }
+
+  a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+    transition: all ease-in-out 0.1s;
+
+    &:hover {
+      color: #4a4ff2;
+    }
+  }
+}
