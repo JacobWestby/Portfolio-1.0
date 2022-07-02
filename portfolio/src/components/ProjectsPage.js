@@ -18,7 +18,7 @@ const ProjectsPage = ({ projects, handleClick }) => {
                 <main>
                     <div className="projectsPage__cont">
                         <div className="projectsPage__cont-cards">
-                            <Link to="/components/displayhtml"><ProjectCard projects={projects} handleClick={handleClick} /></Link>
+                            <Link to="/components/displayhtml" className="projectsPage__cont-cards-link"><ProjectCard projects={projects} handleClick={handleClick} /></Link>
                         </div>
                     </div>
                 </main>
