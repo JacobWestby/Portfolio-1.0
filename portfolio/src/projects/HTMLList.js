@@ -1,4 +1,17 @@
-// const genesisHTML = require("./genesis/index.html");
+const cactus = require('./genesis/images/cactus-img4.png');
+// const colorBalls = require('./genesis/images/color-balls-img8.png');
+// const contactMap = require('./genesis/images/contact-map.png');
+// const faceWhite = require('./genesis/images/flower-face-img6.png');
+// const flowerField = require('./genesis/images/flower-field-img10.png');
+// const fotterLogoBall = require('./genesis/images/fotter-logo-ball.png');
+// const fotterLogoInsta = require('./genesis/images/fotter-logo-insta.png');
+// const fotterLogoTwitter = require('./genesis/images/fotter-logo-twitter.png');
+// const greenImg = require('./genesis/images/green-ikmg12.png');
+// const liberty = require('./genesis/images/liberty-img5.png');
+// const moon = require('./genesis/images/moon-img7.png');
+// const piano = require('./genesis/images/piano-img9.png');
+// const projectDark = require('./genesis/images/project-dark.png');
+
 
 const rawHTML = [
   {
@@ -49,18 +62,18 @@ const rawHTML = [
             <!-- GRID -->
             <main>
               <div class="grid__container">
-                <img src="images/statue-img1.png" alt="Statue" class="grid__container-item1 grid-item" />
-                <img src="images/thinking-img2.png" alt="Person thinking" class="grid__container-item2 grid-item" />
-                <img src="images/flower-face-img3.png" alt="Face cracked with flowers" class="grid__container-item3 grid-item" />
-                <img src="images/cactus-img4.png" alt="Person on a cactus" class="grid__container-item4 grid-item" />
-                <img src="images/liberty-img5.png" alt="Statue of Liberty illustration" class="grid__container-item5 grid-item" />
-                <img src="images/face-white-img6.png" alt="Face with white paint" class="grid__container-item6 grid-item" />
-                <img src="images/moon-img7.png" alt="Moon illustration" class="grid__container-item7 grid-item" />
-                <img src="images/color-balls-img8.png" alt="Colored lines and balls" class="grid__container-item8 grid-item" />
-                <img src="images/piano-img9.png" alt="Piano illustration" class="grid__container-item9 grid-item" />
-                <img src="images/flower-field-img10.png" alt="Person in a field of flowers" class="grid__container-item10 grid-item" />
-                <img src="images/sunset-img11.png" alt="Person walking towards a sunset" class="grid__container-item11 grid-item" />
-                <img src="images/green-ikmg12.png" alt="Green flowers" class="grid__container-item12 grid-item" />
+                <img src=${cactus} alt="Statue" class="grid__container-item1 grid-item" />
+                <img src=${cactus} alt="Person thinking" class="grid__container-item2 grid-item" />
+                <img src=${cactus} alt="Face cracked with flowers" class="grid__container-item3 grid-item" />
+                <img src=${cactus} alt="Person on a cactus" class="grid__container-item4 grid-item" />
+                <img src=${cactus} alt="Statue of Liberty illustration" class="grid__container-item5 grid-item" />
+                <img src=${cactus} alt="Face with white paint" class="grid__container-item6 grid-item" />
+                <img src=${cactus} alt="Moon illustration" class="grid__container-item7 grid-item" />
+                <img src=${cactus} alt="Colored lines and balls" class="grid__container-item8 grid-item" />
+                <img src=${cactus} alt="Piano illustration" class="grid__container-item9 grid-item" />
+                <img src=${cactus} alt="Person in a field of flowers" class="grid__container-item10 grid-item" />
+                <img src=${cactus} alt="Person walking towards a sunset" class="grid__container-item11 grid-item" />
+                <img src=${cactus} alt="Green flowers" class="grid__container-item12 grid-item" />
               </div>
         
               <!-- TEXT CONTENT -->

@@ -8,18 +8,25 @@
 @import "about";
 @import "contactPage";
 @import "projectsPage";
+@import "paralax";
+
+// Genesis sass
+@import "genesisAwards";
+@import "genesisFooter";
+@import "genesisHeader";
+@import "genesisNav";
+@import "genesisMain";
+@import "genesisTextcontent"; 
 
 %fixedBackground {
-    background-image: url("../images/background.svg");
+    background-image: url("../images/backgroundDark.svg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.home-background {
-    @extend %fixedBackground;
-}
+
 
 .about-background {
     @extend %fixedBackground;
@@ -32,7 +39,7 @@
 }
 
 .projects-background {
-    @extend %fixedBackground;
+    // @extend %fixedBackground;
     background-position: 0 -2200px;
 }
 

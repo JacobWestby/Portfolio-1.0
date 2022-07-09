@@ -6,9 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(164, 90, 53);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
-
+    background-color: rgb(41, 40, 40);
+    box-shadow: rgb(232, 187, 133, 0.5) 2px 2px 2px;
+    
     &__items {
         width: 80%;
         display: flex;
@@ -23,7 +23,7 @@
             text-transform: uppercase;
             text-decoration: none;
             font-size: 2rem;
-            color: #000;
+            color: rgb(231, 174, 95);
             font-weight: bold;
         }
 
@@ -39,7 +39,7 @@
                 font-weight: bold;
                 transition: all ease-in-out 0.2s;
                 text-decoration: none;
-                color: #000;
+                color: rgb(231, 174, 95);
             }
 
             &-link:hover {

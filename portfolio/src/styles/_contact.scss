@@ -25,6 +25,7 @@
         h4 {
             margin: 0;
             font-size: 1.4rem;
+            color: #fff;
         }
 
         form {
@@ -33,13 +34,15 @@
             width: 100%;
             margin-top: 3rem;
             background-color: rgba(203, 203, 203, 0.303);
-            backdrop-filter: blur(5px);
+            // backdrop-filter: blur(5px);
             padding: 2rem;
             box-shadow: rgba(0, 0, 0, 0.3) 1px 3px 8px;
-
+            border-radius: 3px;
 
             label {
                 margin-bottom: 1rem;
+                color: #fff;
+
             }
 
             input {

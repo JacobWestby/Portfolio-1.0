@@ -1,6 +1,5 @@
 import jacobWestby from "../images/jacobWestby.jpg";
 
-
 import TypeWriterEffect from 'react-typewriter-effect';
 
 

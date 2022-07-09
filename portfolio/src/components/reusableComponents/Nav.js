@@ -25,7 +25,7 @@ const Nav = ({ menuBurger }) => {
     }
 
     return (
-        <>
+        <header>
             <div className="navbar">
                 <div className="navbar__items">
                     <Link to="/" className='logo'>jw</Link>
@@ -39,7 +39,7 @@ const Nav = ({ menuBurger }) => {
                     {burgerMenu()}
                 </div>
             </div>
-        </>
+        </header>
     )
 }
 
