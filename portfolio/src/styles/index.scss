@@ -10,6 +10,15 @@
 @import "projectsPage";
 @import "paralax";
 
+// Mucisian sass
+@import "mucisian-desktop-header";
+@import "mucisian-desktop-nav";
+@import "mucisian-phone-header";
+@import "mucisian-phone-nav";
+@import "mucisian-tablet-header";
+@import "mucisian-tablet-nav";
+
+
 // Genesis sass
 @import "genesisAwards";
 @import "genesisFooter";
@@ -26,7 +35,9 @@
     background-repeat: no-repeat;
 }
 
-
+.home-background {
+    background-color: rgb(21, 21, 21);
+}
 
 .about-background {
     @extend %fixedBackground;
@@ -46,6 +57,7 @@
 h1,h2,h3,h4,.logo {
     font-family: 'Rubik', sans-serif;    
 }
+
 
 @include phone {
     body {

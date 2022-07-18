@@ -16,6 +16,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
     line-height: 1.2;
+    color: #fff;
 }
 
 %aboutMainImgCont {
@@ -31,6 +32,7 @@ header {
 
 .about__main {
     margin-bottom: 8rem;
+    width: 85%;
 }
 
 .about__cont-top {
@@ -57,13 +59,14 @@ header {
         h2 {
             margin: 0;
             font-size: 2rem;
+            color: $mainColor;
         }
 
         p {
             font-size: 1.2rem;
             letter-spacing: 2px;
             font-style: italic;
-            color: #fff;
+            color: rgb(154, 154, 154);
             font-weight: 100;
         }
     }

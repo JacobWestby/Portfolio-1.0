@@ -1,31 +1,22 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { useState } from 'react';
 
 import Home from './components/Home.js';
-import Nav from './components/reusableComponents/Nav.js';
-import Footer from './components/reusableComponents/Footer.js';
-import Test from './components/Test';
+import GenesisProject from './components/GenesisProject.js';
 
 import reactGame from './images/reactGame.png';
-import genesis from './images/genesis.png';
+import genesis from './images/genesis_cropped.jpg';
 import backAccount from './images/bankAccount.png';
-import bhramon from './images/bhramon.png';
+import bhramon from './images/bhramon_cropped.jpg';
 import feedback from './images/feedback.png';
 import mucisian from './images/mucisian.png';
-import productly from './images/productly.png';
+import productly from './images/productly_cropped.png';
 import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
-import menuBurger from "./images/menuBurger.svg";
-import icons8Github from "./images/icons8Github.svg";
-import icons8Linkedin from "./images/icons8Linkedin.svg";
-import ProjectsPage from './components/ProjectsPage.js';
-import DisplayHTML from './components/DisplayHTML.js';
 import rawHTML from './projects/HTMLList.js';
+import MucisianProject from './components/MucisianProject.js';
 
 
 function App() {
-  const [projectName, setProjectName] = useState("");
-  const [projectID, setProjectID] = useState("");
 
   // Set state display html in app. use id from handleclick to set array index
   // pass display html state to displayHtml component.
@@ -104,22 +95,15 @@ function App() {
 
   // console.log(instaPics)
 
-  const handleClick = (e) => {
-    setProjectName(e.currentTarget.getAttribute('name'));
-    setProjectID(e.currentTarget.id);
-  };
-
-
   return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home calcAge={calcAge()} projects={projects} />} />
         <Route path="/components/aboutpage" element={<AboutPage />} />
         <Route path="/components/contactpage" element={<ContactPage />} />
-        <Route path="/components/projectspage" element={<ProjectsPage projects={projects} handleClick={handleClick} />} />
-        <Route path="/components/displayhtml" element={<DisplayHTML projectName={projectName} projectID={projectID} />} />
+        <Route path="/components/mucisianProject" element={<MucisianProject />} />
+        <Route path="/components/genesisproject" element={<GenesisProject />} />
       </Routes>
-      <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
     </BrowserRouter>
   );
 }

@@ -4,7 +4,7 @@ const ProjectCard = ({ projects, handleClick }) => {
             {
                 projects.map((project) => (
                     <div className="projectCard" name={project.name} id={project.id} key={project.id} onClick={handleClick}>
-                        <img src={project.img} alt="Project" />
+                        <img className="projectImg" src={project.img} alt="Project" />
                         <p>{project.description}</p>
                     </div>
                 ))

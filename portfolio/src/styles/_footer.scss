@@ -20,12 +20,15 @@ footer {
         margin: 0 !important;
         color: rgb(0, 0, 0);
         padding-left: 2rem;
+        color: rgb(231, 174, 95);
+
     }
 
     &-logo-link {
         text-decoration: none;
         flex-grow: 1;
         transition: all ease-in-out 0.3s;
+
     }
 
     &-logo-link:hover {
@@ -42,6 +45,8 @@ footer {
         flex-grow: 1;
         margin: 0;
         text-align: right;
+        color: rgb(231, 174, 95);
+
 
     }
 

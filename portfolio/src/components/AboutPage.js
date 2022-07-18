@@ -1,8 +1,11 @@
 import CenteredCont from "./reusableComponents/CenteredCont"
+import Footer from "./reusableComponents/Footer";
 
 import jacobWestby2 from '../images/jacobWestby2.jpg';
 import ourVan2 from '../images/ourVan2.jpg';
 import Nav from "./reusableComponents/Nav";
+import icons8Github from "../images/icons8Github.svg";
+import icons8Linkedin from "../images/icons8Linkedin.svg";
 
 const AboutPage = () => {
     return (
@@ -41,6 +44,7 @@ const AboutPage = () => {
                     </main>
                 </CenteredCont>
             </div>
+            <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
         </>
     )
 }

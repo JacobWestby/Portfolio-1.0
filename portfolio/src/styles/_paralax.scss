@@ -4,24 +4,24 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 
-    height: 60vh;
-
-
+    height: 50vh;
 }
 
 .paralaxTop {
     @extend %paralax;
     background-position: 0 -3220px;
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .paralaxMid {
     @extend %paralax;
     background-position: 0 -1220px;
+    width: 100%;
 }
 
 .paralaxBottom {
     @extend %paralax;
     background-position: 0 -500px;
+    width: 100%;
+
 }

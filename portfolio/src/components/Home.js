@@ -4,6 +4,9 @@ import Testemonials from "./Testemonials";
 import Contact from "./Contact";
 import Header from "./Header";
 import Nav from "./reusableComponents/Nav";
+import Footer from "./reusableComponents/Footer";
+import icons8Github from "../images/icons8Github.svg";
+import icons8Linkedin from "../images/icons8Linkedin.svg";
 
 
 const Home = ({ calcAge, projects }) => {
@@ -15,9 +18,9 @@ const Home = ({ calcAge, projects }) => {
                 <CenteredCont>
                     <Header calcAge={calcAge} />
                 </CenteredCont>
-                <div className="paralaxTop"></div>
             </header>
             <CenteredCont>
+                <div className="paralaxTop"></div>
                 <main>
                     <Projects projects={projects} />
                     <div className="paralaxMid"></div>
@@ -26,6 +29,8 @@ const Home = ({ calcAge, projects }) => {
                     <Contact />
                 </main>
             </CenteredCont>
+
+            <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
         </div >
     )
 }

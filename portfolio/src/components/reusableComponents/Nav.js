@@ -32,7 +32,6 @@ const Nav = ({ menuBurger }) => {
                     <ul className="navbar__items-list hidden">
                         <Link to="/components/aboutpage" className="navbar__items-list-link">About Me</Link>
                         <Link to="/components/contactpage" className="navbar__items-list-link">Contact</Link>
-                        <Link to="/components/projectspage" className="navbar__items-list-link">Projects</Link>
                     </ul>
                     <img className="burgerMenu" onClick={showMenuToggle} src={menuBurger} alt="Burger" />
                     {/* Menu icon by Icons8 */}

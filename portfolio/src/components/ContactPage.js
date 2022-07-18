@@ -1,6 +1,10 @@
 import CenteredCont from "./reusableComponents/CenteredCont";
+import Footer from "./reusableComponents/Footer";
 import Contact from "./Contact";
 import Nav from "./reusableComponents/Nav";
+
+import icons8Github from "../images/icons8Github.svg";
+import icons8Linkedin from "../images/icons8Linkedin.svg";
 
 const ContactPage = () => {
     return (
@@ -18,6 +22,8 @@ const ContactPage = () => {
 
                 </CenteredCont>
             </div>
+            <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
+
         </>
     )
 }
