@@ -14,6 +14,7 @@ import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
 import rawHTML from './projects/HTMLList.js';
 import MucisianProject from './components/MucisianProject.js';
+import ProductlyProject from './components/ProductlyProject.js';
 
 
 function App() {
@@ -103,6 +104,7 @@ function App() {
         <Route path="/components/contactpage" element={<ContactPage />} />
         <Route path="/components/mucisianProject" element={<MucisianProject />} />
         <Route path="/components/genesisproject" element={<GenesisProject />} />
+        <Route path="/components/productlyproject" element={<ProductlyProject />} />
       </Routes>
     </BrowserRouter>
   );
