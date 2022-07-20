@@ -1,0 +1,18 @@
+@import 'header';
+@import 'nav';
+@import 'choose';
+@import 'how-it-works';
+@import 'spain-top';
+@import 'spain-bottom';
+@import 'tourist';
+@import 'footer';
+
+
+button {
+  transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #9fadee;
+}

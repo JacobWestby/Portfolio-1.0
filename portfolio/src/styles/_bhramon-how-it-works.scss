@@ -1,0 +1,16 @@
+.bhramon-how__it-works {
+  // Was a white line between this one and the elemtn above so i put minus margin to fix it
+  // couldn't find any reason for the white line to be there
+
+  // And then since i added the negative margin everything is out of sync which adds a white
+  // bar on the next one and the next and so on. so i added a backround color on the body to hide the gap.
+
+  // edit i fixed it using the the same solution i came uo with to fix the issue i created. Background color is there
+  // but instead of hiding a 15px margin gap i hides a 2px gap
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/how-it-works.png');
+  // margin-top: -15px;
+  width: 100vw;
+  height: 325px;
+}

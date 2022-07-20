@@ -1,0 +1,68 @@
+.bhramon-choose__background {
+  background-image: url('../images/city-sunset.png');
+  height: 685px;
+  width: 100%;
+}
+
+.bhramon-choose__ {
+  height: 82vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &content {
+    max-width: 560px;
+    color: #ffffff;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+
+    h3 {
+      font-family: 'Aleo';
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-family: 'Josefin Sans';
+      font-size: 16px;
+      letter-spacing: 1.6px;
+      margin-bottom: 10px;
+    }
+
+    .bhramon-button {
+      background: rgb(73, 107, 254);
+      background: linear-gradient(49deg, rgba(73, 107, 254, 1) 44%, rgba(84, 116, 253, 1) 44%);
+      width: 228px;
+      height: 63px;
+      border: none;
+      margin-top: 35px;
+
+      font-family: 'Aleo';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+
+  &images {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      max-width: 350px;
+    }
+    img:last-child {
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  }
+}

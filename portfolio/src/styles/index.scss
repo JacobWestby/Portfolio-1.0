@@ -30,6 +30,18 @@
 // Productly
 @import "productly";
 
+// Bhramon
+@import "bhramon-choose";
+@import "bhramon-footer";
+@import "bhramon-header";
+@import "bhramon-how-it-works";
+@import "bhramon-main";
+@import "bhramon-nav";
+@import "bhramon-spain-bottom";
+@import "bhramon-spain-top";
+@import "bhramon-tourist";
+
+
 %fixedBackground {
     background-image: url("../images/backgroundDark.svg");
     background-size: cover;
