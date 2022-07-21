@@ -23,18 +23,18 @@ const test = () => {
 
             <div className="genesis-main">
                 <div className="genesis-grid__container">
-                    <img src={require("../projects/genesis/images/cactus-img4.png")} alt="Statue" className="genesis-grid__container-item1 grid-item" />
-                    <img src={require("../projects/genesis/images/thinking-img2.png")} alt="Person thinking" className="genesis-grid__container-item2 grid-item" />
-                    <img src={require("../projects/genesis/images/flower-face-img3.png")} alt="Face cracked with flowers" className="genesis-grid__container-item3 grid-item" />
-                    <img src={require("../projects/genesis/images/cactus-img4.png")} alt="Person on a cactus" className="genesis-grid__container-item4 grid-item" />
-                    <img src={require("../projects/genesis/images/liberty-img5.png")} alt="Statue of Liberty illustration" className="genesis-grid__container-item5 grid-item" />
-                    <img src={require("../projects/genesis/images/face-white-img6.png")} alt="Face with white paint" className="genesis-grid__container-item6 grid-item" />
-                    <img src={require("../projects/genesis/images/moon-img7.png")} alt="Moon illustration" className="genesis-grid__container-item7 grid-item" />
-                    <img src={require("../projects/genesis/images/color-balls-img8.png")} alt="Colored lines and balls" className="genesis-grid__container-item8 grid-item" />
-                    <img src={require("../projects/genesis/images/piano-img9.png")} alt="Piano illustration" className="genesis-grid__container-item9 grid-item" />
-                    <img src={require("../projects/genesis/images/flower-field-img10.png")} alt="Person in a field of flowers" className="genesis-grid__container-item10 grid-item" />
-                    <img src={require("../projects/genesis/images/sunset-img11.png")} alt="Person walking towards a sunset" className="genesis-grid__container-item11 grid-item" />
-                    <img src={require("../projects/genesis/images/green-ikmg12.png")} alt="Green flowers" className="genesis-grid__container-item12 grid-item" />
+                    <img src={require("../images/cactus-img4.png")} alt="Statue" className="genesis-grid__container-item1 grid-item" />
+                    <img src={require("../images/thinking-img2.png")} alt="Person thinking" className="genesis-grid__container-item2 grid-item" />
+                    <img src={require("../images/flower-face-img3.png")} alt="Face cracked with flowers" className="genesis-grid__container-item3 grid-item" />
+                    <img src={require("../images/cactus-img4.png")} alt="Person on a cactus" className="genesis-grid__container-item4 grid-item" />
+                    <img src={require("../images/liberty-img5.png")} alt="Statue of Liberty illustration" className="genesis-grid__container-item5 grid-item" />
+                    <img src={require("../images/face-white-img6.png")} alt="Face with white paint" className="genesis-grid__container-item6 grid-item" />
+                    <img src={require("../images/moon-img7.png")} alt="Moon illustration" className="genesis-grid__container-item7 grid-item" />
+                    <img src={require("../images/color-balls-img8.png")} alt="Colored lines and balls" className="genesis-grid__container-item8 grid-item" />
+                    <img src={require("../images/piano-img9.png")} alt="Piano illustration" className="genesis-grid__container-item9 grid-item" />
+                    <img src={require("../images/flower-field-img10.png")} alt="Person in a field of flowers" className="genesis-grid__container-item10 grid-item" />
+                    <img src={require("../images/sunset-img11.png")} alt="Person walking towards a sunset" className="genesis-grid__container-item11 grid-item" />
+                    <img src={require("../images/green-ikmg12.png")} alt="Green flowers" className="genesis-grid__container-item12 grid-item" />
                 </div>
 
 
@@ -108,9 +108,9 @@ const test = () => {
                         <a href="./pages/contact.html">Contact</a>
                     </div>
                     <div className="genesis-footer__links-socials">
-                        <img src={require("../projects/genesis/images/fotter-logo-ball.png")} alt="Link to not sure what social that is" />
-                        <img src={require("../projects/genesis/images/fotter-logo-insta.png")} alt="Link to instagram" />
-                        <img src={require("../projects/genesis/images/fotter-logo-twitter.png")} alt="Link to twitter" />
+                        <img src={require("../images/fotter-logo-ball.png")} alt="Link to not sure what social that is" />
+                        <img src={require("../images/fotter-logo-insta.png")} alt="Link to instagram" />
+                        <img src={require("../images/fotter-logo-twitter.png")} alt="Link to twitter" />
                     </div>
                 </div>
             </div>

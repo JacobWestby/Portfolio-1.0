@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/ce433710-0918-11ed-be50-e78da9ee852d"
+
 
 const Contact = () => {
     const [initialState, setInitialState] = useState({
@@ -36,7 +38,7 @@ const Contact = () => {
         <div className="contact">
             <div className="contact__form">
                 <h4>contact me</h4>
-                <form onSubmit={sendMessage}>
+                <form action={FORM_ENDPOINT} method="POST">
                     <label htmlFor="name">Name</label>
                     <input value={initialState.name} name="name" type="text" required placeholder="Your name.." onChange={handleChange} />
 
@@ -45,7 +47,7 @@ const Contact = () => {
 
                     <label htmlFor="message">Message</label>
                     <input value={initialState.message} name="message" type="textarea" required placeholder="Your question or message here.." onChange={handleChange} />
-                    <button>Send</button>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>
