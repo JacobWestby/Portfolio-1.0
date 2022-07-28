@@ -75,7 +75,7 @@ h1,h2,h3,h4,.logo {
 
 
 @include phone {
-    body {
-        background-position: -200px -3750px;
+    .about-background {
+        background-size: auto;
     }
 }
