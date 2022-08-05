@@ -1,6 +1,7 @@
 .testemonials {
     background-color: rgb(109, 109, 109);
     min-height: 80vh;
+    width: 85%;
     padding: 4rem 1.5rem 0 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
     border-radius: 3px;
@@ -17,12 +18,19 @@
         color: #fff;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 4rem;
 
-        img {
-            width: 20%;
-        }
+        &-inner {
+
+            p {
+            }
+
+            img {
+                width: 20%;
+            }
+            
+        }  
     }
 }
 

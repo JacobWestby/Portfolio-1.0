@@ -9,7 +9,7 @@ import icons8Github from "../images/icons8Github.svg";
 import icons8Linkedin from "../images/icons8Linkedin.svg";
 
 
-const Home = ({ calcAge, projects }) => {
+const Home = ({ calcAge, projects, testemonials }) => {
 
     return (
         <div className="home-background">
@@ -24,7 +24,7 @@ const Home = ({ calcAge, projects }) => {
                 <main>
                     <Projects projects={projects} />
                     <div className="paralaxMid"></div>
-                    <Testemonials />
+                    <Testemonials testemonials={testemonials} />
                     <div className="paralaxBottom"></div>
                     <Contact />
                 </main>

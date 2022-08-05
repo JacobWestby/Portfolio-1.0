@@ -17,7 +17,19 @@ import mucisian from './images/mucisian.png';
 import productly from './images/productly_cropped.png';
 import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
+import jacobWestby from "./images/jacobWestby.jpg";
 
+
+// TODO
+
+// Fix bhramon project images || Complete
+// Fix bhramon Quote size || Complete
+// Add Testemonials 
+// Add back to top button
+// Add back button on project pages || Complete
+// Add contact form on About page 
+// Fix social links so they open in new tab || Complete
+// Look up how to deploy react project from github to netlify || Complete
 
 
 function App() {
@@ -61,6 +73,22 @@ function App() {
     }
   ];
 
+  //  TESTEMONIALS ARRAY 
+  const testemonials = [
+    {
+      name: "Linnea Andersson",
+      img: jacobWestby,
+      text: "Han är Bäst dsa",
+    },
+    {
+      name: "Test McTester",
+      img: jacobWestby,
+      text: "omg så jävlabra",
+    },
+
+
+  ];
+
   // CALCULATE UP-TO-DATE AGE
   const calcAge = () => {
     const date = new Date()
@@ -72,7 +100,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Home calcAge={calcAge()} projects={projects} />} />
+        <Route exact path="/" element={<Home calcAge={calcAge()} projects={projects} testemonials={testemonials} />} />
         <Route path="/components/aboutpage" element={<AboutPage />} />
         <Route path="/components/contactpage" element={<ContactPage />} />
         <Route path="/components/mucisianproject" element={<MucisianProject />} />

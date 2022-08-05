@@ -1,7 +1,9 @@
+import ToTopBtn from "./reusableComponents/ToTopBtn";
 
 const test = () => {
     return (
         <div className="genesis-body">
+            <ToTopBtn />
             <div className="genesis-header">
                 <nav className="genesis-nav">
                     <h1 className="genesis-logo"><a className="genesis-logo-a" href="index.html">Genesis</a></h1>

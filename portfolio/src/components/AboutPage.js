@@ -50,8 +50,10 @@ const AboutPage = () => {
                         <h3 className="about__main-heading-bottom">What i do now</h3>
                         <div className="about__main__cont-3">
                             <div className="about__main__cont-3-text">
-                                <p>Right now me and my fiance are still living in the van with our dogs and traveling around. I take temporary jobs when possible to have an income but the end goal is to earn a good income from doing web development work remotely.<br />
-                                    To that end I am doing some kind of coding everyday, whether that is working on a new or old project, improving my portfolio or contacting possible costommers.
+                                <p>Right now me and my fiance are still living in the van with our dogs and traveling around. I take temporary jobs when possible to have an income but the end goal is to earn a good income from doing web development work remotely.
+                                    <br />
+                                    <br />
+                                    To that end I am doing some kind of coding everyday, whether that is working on a new or old project, improving my portfolio or contacting possible customers.
                                 </p>
                             </div>
                             {/* <img src={ourVan2} alt="Mercedes sprinter van" className="van" /> */}

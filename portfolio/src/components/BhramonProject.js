@@ -1,7 +1,16 @@
+import quote from "../images/quote-left-solid.svg";
+import facebook_icon from "../images/facebook-icon.svg";
+import linkedin_icon from "../images/linkedin-icon.svg";
+import pintrest_icon from "../images/pintrest-icon.svg";
+import twitter_icon from "../images/twitter-icon.svg";
+import youtube_icon from "../images/youtube-icon.svg";
+import ToTopBtn from "./reusableComponents/ToTopBtn";
+
 
 const BhramonProject = () => {
     return (
         <div className="bhramon-body">
+            <ToTopBtn />
             <header className="bhramon-header">
                 <div className="bhramon-top__container">
                     <div className="bhramon-search">
@@ -54,7 +63,7 @@ const BhramonProject = () => {
                 <div className="bhramon-how__it-works"></div>
 
                 <div className="bhramon-spain__top">
-                    <div className="bhramon-spain__top-cont spain__content">
+                    <div className="bhramon-spain__top-cont bhramon-spain__content">
                         <h5>spain</h5>
                         <h4>grand spain madrid</h4>
                         <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
@@ -63,7 +72,7 @@ const BhramonProject = () => {
                 </div>
 
                 <div className="bhramon-spain__bottom">
-                    <div className="bhramon-spain__bottom-cont spain__content">
+                    <div className="bhramon-spain__bottom-cont bhramon-spain__content">
                         <h5>spain</h5>
                         <h4>grand spain madrid</h4>
                         <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
@@ -78,7 +87,7 @@ const BhramonProject = () => {
                         <div className="bhramon-tourist__cont-text">
                             <h5>Sam Sumon</h5>
                             <p>
-                                <span><img className="bhramon-quote" src={require("../images/quote-left-solid.svg")} alt="quote" /></span>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain
+                                <span><img className="bhramon-quote" src={quote} alt="quote" /></span>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain
                                 But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account born and I account will give you a complete account of the system
                                 was account born and I account will give you a nai the complete account of the system
                             </p>
@@ -91,11 +100,11 @@ const BhramonProject = () => {
                         <h6>BHROMAON</h6>
                         <p>Safe Travel Anywhere</p>
                         <div className="bhramon-footer__cont-links">
-                            <a href="#"><img src={require("../images/facebook-icon.svg")} alt="Facebook" /></a>
-                            <a href="#"><img src={require("../images/twitter-icon.svg")} alt="Twitter" /></a>
-                            <a href="#"><img src={require("../images/linkedin-icon.svg")} alt="Linked-in" /></a>
-                            <a href="#"><img src={require("../images/youtube-icon.svg")} alt="Youtube" /></a>
-                            <a href="#"><img src={require("../images/pintrest-icon.svg")} alt="Pintrest" /></a>
+                            <a href="#"><img src={facebook_icon} alt="Facebook" /></a>
+                            <a href="#"><img src={twitter_icon} alt="Twitter" /></a>
+                            <a href="#"><img src={linkedin_icon} alt="Linked-in" /></a>
+                            <a href="#"><img src={youtube_icon} alt="Youtube" /></a>
+                            <a href="#"><img src={pintrest_icon} alt="Pintrest" /></a>
                         </div>
                     </div>
                 </footer>

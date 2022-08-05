@@ -1,8 +1,10 @@
 import productlyLogo from "../images/ProductlyLogo.svg";
+import ToTopBtn from "./reusableComponents/ToTopBtn";
 
 const ProductlyProject = () => {
     return (
         <div className="productly-body">
+            <ToTopBtn />
             <header className="productly-header">
                 <nav className="productly-nav">
                     <img src={productlyLogo} alt="page logo" className="productly-logo" />

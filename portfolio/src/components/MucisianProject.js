@@ -1,7 +1,9 @@
+import ToTopBtn from "./reusableComponents/ToTopBtn";
 
 const MucisianProject = () => {
     return (
         <div className="mucisian-body">
+            <ToTopBtn />
             <header className="mucisian-header">
                 <nav className="mucisian-nav">
                     <h1>Head.</h1>

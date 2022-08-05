@@ -1,0 +1,15 @@
+.toTopBtn {
+    float: left;
+    position: fixed;
+    border-radius: 50%;
+    background-color: $mainColor;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 3rem 2rem;
+    box-shadow: rgb(232, 187, 133, 0.5) 1px 1px 1px;
+}

@@ -1,4 +1,4 @@
-.bhramon-tourist__ {
+.bhramon-tourist {
   background-image: url('../images/person.png');
   height: 731px;
   width: 100%;
@@ -19,7 +19,7 @@
     text-align: center;
   }
 
-  &cont {
+  &__cont {
     display: flex;
     justify-content: space-around;
     align-self: center;
@@ -56,7 +56,7 @@
         line-height: 26px;
         color: #ffffff;
 
-        .quote {
+        .bhramon-quote {
           width: 30px;
           height: 30px;
         }
