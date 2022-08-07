@@ -42,6 +42,23 @@ main {
                 cursor: pointer;
             }
         }
+        .more {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p {
+                color: #fff;
+                font-size: 1.2rem;
+            }
+            
+            a {
+                text-decoration: none;
+                color: $mainColor;
+                font-size: 1.2rem;
+            }
+        }
     }
 }
 

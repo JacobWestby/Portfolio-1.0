@@ -13,6 +13,9 @@ const Projects = ({ projects }) => {
                         <Link to={`/components/${project.name}project`} className="projects__cont-card" name={project.name} key={project.id} style={{ background: `url("${project.img}") no-repeat center/contain` }}></Link>
                     ))}
                 </div>
+                <div className="more">
+                    <p>React based projects be found here! <a href="https://github.com/JacobWestby?tab=repositories" target="_blank">Github</a></p>
+                </div>
             </div>
         </>
     )

@@ -6,6 +6,7 @@ import GenesisProject from './components/GenesisProject.js';
 import MucisianProject from './components/MucisianProject.js';
 import ProductlyProject from './components/ProductlyProject.js';
 import BhramonProject from './components/BhramonProject.js';
+import GoBackBtn from './components/reusableComponents/GoBackBtn.js';
 
 // IMAGES
 import reactGame from './images/reactGame.png';
@@ -18,19 +19,18 @@ import productly from './images/productly_cropped.png';
 import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
 import jacobWestby from "./images/jacobWestby.jpg";
-
+import BackArrow from "./images/icons8-back-32.png";
 
 // TODO
 
 // Fix bhramon project images || Complete
 // Fix bhramon Quote size || Complete
 // Add Testemonials 
-// Add back to top button
+// Add back to top button || Scrap
 // Add back button on project pages || Complete
 // Add contact form on About page 
 // Fix social links so they open in new tab || Complete
 // Look up how to deploy react project from github to netlify || Complete
-
 
 function App() {
 
@@ -47,30 +47,16 @@ function App() {
       name: "genesis",
     },
     {
-      img: reactGame,
-      id: 3,
-      name: "reactGame",
-    },
-    {
       img: productly,
-      id: 4,
+      id: 3,
       name: "productly",
     },
     {
-      img: feedback,
-      id: 5,
-      name: "feedback",
-    },
-    {
       img: bhramon,
-      id: 6,
+      id: 4,
       name: "bhramon",
     },
-    {
-      img: backAccount,
-      id: 7,
-      name: "backAccount",
-    }
+
   ];
 
   //  TESTEMONIALS ARRAY 
@@ -78,7 +64,8 @@ function App() {
     {
       name: "Linnea Andersson",
       img: jacobWestby,
-      text: "Han är Bäst dsa",
+      text: `Jacob använder sin tid väl och finner kreativa lösningar på problem. 
+      Det var både roligt och givande att arbeta i grupp med honom.`
     },
     {
       name: "Test McTester",
@@ -99,14 +86,15 @@ function App() {
 
   return (
     <BrowserRouter>
+      {/* <GoBackBtn /> */}
       <Routes>
         <Route exact path="/" element={<Home calcAge={calcAge()} projects={projects} testemonials={testemonials} />} />
         <Route path="/components/aboutpage" element={<AboutPage />} />
         <Route path="/components/contactpage" element={<ContactPage />} />
-        <Route path="/components/mucisianproject" element={<MucisianProject />} />
-        <Route path="/components/genesisproject" element={<GenesisProject />} />
-        <Route path="/components/productlyproject" element={<ProductlyProject />} />
-        <Route path="/components/bhramonproject" element={<BhramonProject />} />
+        <Route path="/components/mucisianproject" element={<MucisianProject BackArrow={BackArrow} />} />
+        <Route path="/components/genesisproject" element={<GenesisProject BackArrow={BackArrow} />} />
+        <Route path="/components/productlyproject" element={<ProductlyProject BackArrow={BackArrow} />} />
+        <Route path="/components/bhramonproject" element={<BhramonProject BackArrow={BackArrow} />} />
       </Routes>
     </BrowserRouter>
   );

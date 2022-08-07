@@ -4,13 +4,13 @@ import linkedin_icon from "../images/linkedin-icon.svg";
 import pintrest_icon from "../images/pintrest-icon.svg";
 import twitter_icon from "../images/twitter-icon.svg";
 import youtube_icon from "../images/youtube-icon.svg";
-import ToTopBtn from "./reusableComponents/ToTopBtn";
+import GoBackBtn from "./reusableComponents/GoBackBtn";
 
 
-const BhramonProject = () => {
+const BhramonProject = ({ BackArrow }) => {
     return (
         <div className="bhramon-body">
-            <ToTopBtn />
+            <GoBackBtn BackArrow={BackArrow} />
             <header className="bhramon-header">
                 <div className="bhramon-top__container">
                     <div className="bhramon-search">

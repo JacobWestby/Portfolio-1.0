@@ -1,10 +1,10 @@
 import productlyLogo from "../images/ProductlyLogo.svg";
-import ToTopBtn from "./reusableComponents/ToTopBtn";
+import GoBackBtn from "./reusableComponents/GoBackBtn";
 
-const ProductlyProject = () => {
+const ProductlyProject = ({ BackArrow }) => {
     return (
         <div className="productly-body">
-            <ToTopBtn />
+            <GoBackBtn BackArrow={BackArrow} />
             <header className="productly-header">
                 <nav className="productly-nav">
                     <img src={productlyLogo} alt="page logo" className="productly-logo" />

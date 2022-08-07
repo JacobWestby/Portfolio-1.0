@@ -1,9 +1,9 @@
-import ToTopBtn from "./reusableComponents/ToTopBtn";
+import GoBackBtn from "./reusableComponents/GoBackBtn";
 
-const test = () => {
-    return (
+const test = ({ BackArrow }) => {
+    return (<>
+        <GoBackBtn BackArrow={BackArrow} />
         <div className="genesis-body">
-            <ToTopBtn />
             <div className="genesis-header">
                 <nav className="genesis-nav">
                     <h1 className="genesis-logo"><a className="genesis-logo-a" href="index.html">Genesis</a></h1>
@@ -12,7 +12,6 @@ const test = () => {
                         <li className="genesis-nav__list-item"><a href="./pages/contact.html">Contact</a></li>
                     </ul>
                 </nav>
-
 
                 <div className="genesis-genesis-header__content">
                     <h2>Shooting stars</h2>
@@ -38,7 +37,6 @@ const test = () => {
                     <img src={require("../images/sunset-img11.png")} alt="Person walking towards a sunset" className="genesis-grid__container-item11 grid-item" />
                     <img src={require("../images/green-ikmg12.png")} alt="Green flowers" className="genesis-grid__container-item12 grid-item" />
                 </div>
-
 
                 <div className="genesis-text__content">
                     <h3>We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</h3>
@@ -117,6 +115,7 @@ const test = () => {
                 </div>
             </div>
         </div>
+    </>
     )
 }
 

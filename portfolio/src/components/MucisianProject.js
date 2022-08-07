@@ -1,9 +1,9 @@
-import ToTopBtn from "./reusableComponents/ToTopBtn";
+import GoBackBtn from "./reusableComponents/GoBackBtn";
 
-const MucisianProject = () => {
+const MucisianProject = ({ BackArrow }) => {
     return (
         <div className="mucisian-body">
-            <ToTopBtn />
+            <GoBackBtn BackArrow={BackArrow} />
             <header className="mucisian-header">
                 <nav className="mucisian-nav">
                     <h1>Head.</h1>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Footer = ({ githubIcon, linkedinIcon }) => {
     return (
@@ -9,8 +10,8 @@ const Footer = ({ githubIcon, linkedinIcon }) => {
                     <a href="https://www.linkedin.com/in/jacob-westby-dev93/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="Linkedin icon link" /></a>
                 </ul>
                 <ul className="footer__cont-links">
-                    <li>About me</li>
-                    <li>Contact</li>
+                    <Link to="/components/aboutpage" className="footer__cont-links-Link">About Me</Link>
+                    <Link to="/components/contactpage" className="footer__cont-links-Link">Contact</Link>
                 </ul>
             </div>
         </footer>
