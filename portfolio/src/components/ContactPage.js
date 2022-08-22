@@ -6,10 +6,10 @@ import Nav from "./reusableComponents/Nav";
 import icons8Github from "../images/icons8Github.svg";
 import icons8Linkedin from "../images/icons8Linkedin.svg";
 
-const ContactPage = () => {
+const ContactPage = ({ menuBurger }) => {
     return (
         <>
-            <Nav />
+            <Nav menuBurger={menuBurger} />
             <div className="contact-background">
                 <CenteredCont>
                     <header>

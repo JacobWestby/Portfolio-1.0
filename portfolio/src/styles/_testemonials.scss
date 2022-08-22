@@ -20,9 +20,10 @@
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 4rem;
+        width: 70%;
 
         p {
-            width: 60%;
+            width: 40vw;
             font-style: italic;
         }
 
@@ -34,7 +35,7 @@
             }
 
             img {
-                width: 70%;
+                width: 60%;
             }
             
         }  
@@ -49,8 +50,10 @@
         &__cont {
             justify-content: space-between;
             margin-bottom: 2rem;
+            width: 90%;
+
             img {
-                width: 25%;
+                width: 100%;
             }
 
             p {

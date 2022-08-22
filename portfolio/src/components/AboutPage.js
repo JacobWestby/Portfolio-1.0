@@ -1,15 +1,12 @@
 import CenteredCont from "./reusableComponents/CenteredCont"
 import Footer from "./reusableComponents/Footer";
 
-import jacobWestby2 from '../images/jacobWestby2.jpg';
-import menuBurger from '../images/menuBurger.svg';
-import ourVan2 from '../images/ourVan2.jpg';
 import Nav from "./reusableComponents/Nav";
 import icons8Github from "../images/icons8Github.svg";
 import icons8Linkedin from "../images/icons8Linkedin.svg";
 import about_me_header from "../images/about_me_header.svg";
 
-const AboutPage = () => {
+const AboutPage = ({ menuBurger }) => {
     return (
         <>
             <Nav menuBurger={menuBurger} />

@@ -6,31 +6,35 @@ import GenesisProject from './components/GenesisProject.js';
 import MucisianProject from './components/MucisianProject.js';
 import ProductlyProject from './components/ProductlyProject.js';
 import BhramonProject from './components/BhramonProject.js';
-import GoBackBtn from './components/reusableComponents/GoBackBtn.js';
 
 // IMAGES
-import reactGame from './images/reactGame.png';
 import genesis from './images/genesis_cropped.jpg';
-import backAccount from './images/bankAccount.png';
 import bhramon from './images/bhramon_cropped.jpg';
-import feedback from './images/feedback.png';
 import mucisian from './images/mucisian.png';
 import productly from './images/productly_cropped.png';
 import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
 import jacobWestby from "./images/jacobWestby.jpg";
 import BackArrow from "./images/icons8-back-32.png";
+import linnea from "./images/linnea.jpg";
+import menuBurger from "./images/menuBurger.svg";
 
 // TODO
 
 // Fix bhramon project images || Complete
 // Fix bhramon Quote size || Complete
-// Add Testemonials 
+// Add Testemonials -- Addition -- Add pictures for testemonials || Completed
 // Add back to top button || Scrap
 // Add back button on project pages || Complete
-// Add contact form on About page 
+// Add contact form on About page || Scrap
+// Add images to About page || Scrap
 // Fix social links so they open in new tab || Complete
 // Look up how to deploy react project from github to netlify || Complete
+// Fix Links in the burger menu || Completeed
+
+// Fix background on contact for mobile
+// Fix sizing issues for tablet
+// Fonts?
 
 function App() {
 
@@ -63,7 +67,7 @@ function App() {
   const testemonials = [
     {
       name: "Linnea Andersson",
-      img: jacobWestby,
+      img: linnea,
       text: `Jacob använder sin tid väl och finner kreativa lösningar på problem. 
       Det var både roligt och givande att arbeta i grupp med honom.`
     },
@@ -84,13 +88,19 @@ function App() {
     return currentAge;
   };
 
+  // FADES IN SKILL LIST
+
+  // const fadeIn = () => {
+
+  // }
+
   return (
     <BrowserRouter>
       {/* <GoBackBtn /> */}
       <Routes>
-        <Route exact path="/" element={<Home calcAge={calcAge()} projects={projects} testemonials={testemonials} />} />
-        <Route path="/components/aboutpage" element={<AboutPage />} />
-        <Route path="/components/contactpage" element={<ContactPage />} />
+        <Route exact path="/" element={<Home menuBurger={menuBurger} calcAge={calcAge()} projects={projects} testemonials={testemonials} />} />
+        <Route path="/components/aboutpage" element={<AboutPage menuBurger={menuBurger} />} />
+        <Route path="/components/contactpage" element={<ContactPage menuBurger={menuBurger} />} />
         <Route path="/components/mucisianproject" element={<MucisianProject BackArrow={BackArrow} />} />
         <Route path="/components/genesisproject" element={<GenesisProject BackArrow={BackArrow} />} />
         <Route path="/components/productlyproject" element={<ProductlyProject BackArrow={BackArrow} />} />

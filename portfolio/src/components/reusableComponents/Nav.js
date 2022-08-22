@@ -17,8 +17,8 @@ const Nav = ({ menuBurger }) => {
         if (showMenu) {
             return (
                 <ul className="burger__menu">
-                    <li>About Me</li>
-                    <li>Contact</li>
+                    <Link to="/components/aboutpage" className="burger__menu-links">About Me</Link>
+                    <Link to="/components/contactpage" className="burger__menu-links">Contact</Link>
                 </ul>
             )
         } else return;

@@ -80,6 +80,10 @@ $mainColor: rgb(231, 174, 95);
             transition: all ease-in-out 0.5s;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
+            &-links {
+                text-decoration: none;
+                color: $mainColor;
+            }
         }
     }
 }

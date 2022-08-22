@@ -14,7 +14,7 @@ const Projects = ({ projects }) => {
                     ))}
                 </div>
                 <div className="more">
-                    <p>React based projects be found here! <a href="https://github.com/JacobWestby?tab=repositories" target="_blank">Github</a></p>
+                    <p>React based projects can be found on <a href="https://github.com/JacobWestby?tab=repositories" target="_blank" rel="noreferrer">Github!</a></p>
                 </div>
             </div>
         </>
