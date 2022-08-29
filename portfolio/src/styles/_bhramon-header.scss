@@ -1,0 +1,106 @@
+.bhramon-top__container {
+  width: 100%;
+  height: 820px;
+  background-image: url('../images/mountains.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bhramon-search {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  &__text {
+    font-family: 'Josefin Sans';
+    line-height: 26px;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 48px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 48px;
+      letter-spacing: 4.8px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      font-weight: normal;
+      font-size: 22px;
+      letter-spacing: 6.82px;
+    }
+  }
+
+  &__search {
+    form {
+      display: flex;
+      justify-content: space-around;
+
+      input[type='text'] {
+        width: 503px;
+        max-width: 653px;
+        height: 63px;
+        max-height: 63px;
+        border: none;
+      }
+
+      input[type='text']::placeholder {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        color: #999999;
+        text-align: center;
+      }
+
+      input[type='button'] {
+        background: #5474fd;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        width: 153px;
+        height: 65px;
+
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        transition: all ease-in-out 0.2s;
+      }
+
+      input[type='button']:hover {
+        background: #9fadee;
+        color: #000000;
+      }
+    }
+  }
+
+  &__scroll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    a:not(:nth-child(2)) {
+      margin-top: 50px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 2.8px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}

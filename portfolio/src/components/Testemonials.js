@@ -1,23 +1,18 @@
-import jacobWestby from "../images/jacob-westby.jpg";
 
+const Testemonials = ({ testemonials }) => {
 
-const Testemonials = () => {
-    return (<>
+    return (
         <div className="testemonials">
-            <div className="testemonials__cont">
-                <img src={jacobWestby} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum!</p>
-            </div>
-            <div className="testemonials__cont">
-                <img src={jacobWestby} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum!</p>
-            </div>
-            <div className="testemonials__cont">
-                <img src={jacobWestby} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum!</p>
-            </div>
+            {testemonials.map((testemonial) => (
+                <div className="testemonials__cont">
+                    <div className="testemonials__cont-inner">
+                        <img src={testemonial.img} alt="Profile" />
+                        <p>{testemonial.name}</p>
+                    </div>
+                    <p>{testemonial.text}</p>
+                </div>
+            ))}
         </div>
-    </>
     )
 }
 

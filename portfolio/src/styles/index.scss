@@ -3,3 +3,79 @@
 @import "header";
 @import "projects";
 @import "testemonials";
+@import "contact";
+@import "footer";
+@import "about";
+@import "contactPage";
+@import "paralax";
+@import "goBackBtn";
+
+// Mucisian 
+@import "mucisian-desktop-header";
+@import "mucisian-desktop-nav";
+@import "mucisian-phone-header";
+@import "mucisian-phone-nav";
+@import "mucisian-tablet-header";
+@import "mucisian-tablet-nav";
+
+
+// Genesis 
+@import "genesisAwards";
+@import "genesisFooter";
+@import "genesisHeader";
+@import "genesisNav";
+@import "genesisMain";
+@import "genesisTextcontent"; 
+
+// Productly
+@import "productly";
+
+// Bhramon
+@import "bhramon-choose";
+@import "bhramon-footer";
+@import "bhramon-header";
+@import "bhramon-how-it-works";
+@import "bhramon-main";
+@import "bhramon-nav";
+@import "bhramon-spain-bottom";
+@import "bhramon-spain-top";
+@import "bhramon-tourist";
+
+
+%fixedBackground {
+    background-image: url("../images/backgroundDark.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home-background {
+    background-color: rgb(21, 21, 21);
+}
+
+.about-background {
+    @extend %fixedBackground;
+    background-position: 0 -1220px;
+}
+
+.contact-background {
+    @extend %fixedBackground;
+    background-position: 0 -400px;
+}
+
+.projects-background {
+    // @extend %fixedBackground;
+    background-position: 0 -2200px;
+}
+
+h1,h2,h3,h4,.logo {
+    font-family: 'Rubik', sans-serif;    
+}
+
+
+@include phone {
+    .about-background {
+        background-size: auto;
+    }
+}

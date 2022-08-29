@@ -1,0 +1,15 @@
+.bhramon-spain__bottom {
+  background-image: url('../images/mountian-sunset.png');
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-cont {
+    position: relative;
+    top: 70px;
+    left: 22%;
+  }
+}

@@ -1,30 +1,37 @@
-import Nav from "../reusableComponents/Nav"
-import CenteredCont from "../reusableComponents/CenteredCont"
-import jacobWestby from "../images/jacob-westby.jpg";
+import CenteredCont from "./reusableComponents/CenteredCont"
 import Projects from "./Projects";
 import Testemonials from "./Testemonials";
+import Contact from "./Contact";
+import Header from "./Header";
+import Nav from "./reusableComponents/Nav";
+import Footer from "./reusableComponents/Footer";
+import icons8Github from "../images/icons8Github.svg";
+import icons8Linkedin from "../images/icons8Linkedin.svg";
 
-const Home = () => {
+
+const Home = ({ calcAge, projects, testemonials, menuBurger }) => {
+
     return (
-        <>
+        <div className="home-background">
             <header>
-                <Nav />
+                <Nav menuBurger={menuBurger}/>  
                 <CenteredCont>
-                    <div className="home__content">
-                        <img src={jacobWestby} alt="Jacob Westby" />
-                        <div className="home__content-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quo dolorem adipisci deserunt ullam vero eveniet sed possimus reprehenderit quidem provident, aut modi amet sunt quos perferendis consequatur asperiores! Reprehenderit?</p>
-                        </div>
-                    </div>
+                    <Header calcAge={calcAge} />
                 </CenteredCont>
             </header>
             <CenteredCont>
+                <div className="paralaxTop"></div>
                 <main>
-                    <Projects />
-                    <Testemonials />
+                    <Projects projects={projects} />
+                    <div className="paralaxMid"></div>
+                    <Testemonials testemonials={testemonials} />
+                    <div className="paralaxBottom"></div>
+                    <Contact />
                 </main>
             </CenteredCont>
-        </>
+
+            <Footer githubIcon={icons8Github} linkedinIcon={icons8Linkedin} />
+        </div >
     )
 }
 

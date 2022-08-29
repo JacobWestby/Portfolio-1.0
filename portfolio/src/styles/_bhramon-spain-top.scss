@@ -1,0 +1,59 @@
+.bhramon-spain__top {
+  background-image: url('../images/building.png');
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-cont {
+    position: relative;
+    right: 22%;
+    top: 70px;
+  }
+}
+
+.bhramon-spain__content {
+  padding-left: 30px;
+  width: 543px;
+  height: 374px;
+  background-color: #232323ec;
+  color: #e8e8e8;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: normal;
+
+  h5 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 46px;
+  }
+
+  button {
+    background: rgb(73, 107, 254);
+    background: linear-gradient(49deg, rgba(73, 107, 254, 1) 44%, rgba(84, 116, 253, 1) 44%);
+    width: 228px;
+    height: 63px;
+    border: none;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

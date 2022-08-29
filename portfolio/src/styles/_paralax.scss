@@ -1,0 +1,40 @@
+%paralax {
+    background-image: url("../images/backgroundDark.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 50vh;
+}
+
+.paralaxTop {
+    @extend %paralax;
+    background-position: 0 -3220px;
+    width: 100%;
+}
+
+.paralaxMid {
+    @extend %paralax;
+    background-position: 0 -1220px;
+    width: 100%;
+}
+
+.paralaxBottom {
+    @extend %paralax;
+    background-position: 0 -500px;
+    width: 100%;
+}
+
+@include phone {
+    .paralaxTop {
+        background-position: 0 -100px;
+    }
+
+    .paralaxMid {
+        background-position: 0 -500px;
+    }
+
+    .paralaxBottom {
+        background-position: 0 -700px;
+    }
+}

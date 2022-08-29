@@ -1,0 +1,66 @@
+.bhramon-tourist {
+  background-image: url('../images/person.png');
+  height: 731px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+
+  h3 {
+    margin-bottom: 91px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  &__cont {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    img {
+      max-width: 445px;
+      max-height: 284px;
+    }
+
+    &-text {
+      width: 668px;
+      height: 284px;
+      background-color: #333;
+      padding-left: 62px;
+
+      h5 {
+        margin-bottom: 8px;
+        margin-top: 49px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #fefefe;
+      }
+
+      p {
+        font-family: 'Aleo';
+        width: 581px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+
+        .bhramon-quote {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

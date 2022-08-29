@@ -1,0 +1,36 @@
+.mucisian-nav {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 60px;
+  margin: 0;
+
+  h1 {
+    align-self: flex-end;
+    margin: 0;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: -0.25px;
+    color: #ffffff;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+
+    a {
+      text-decoration: none;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+  }
+}

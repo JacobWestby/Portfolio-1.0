@@ -1,0 +1,56 @@
+.genesis-header__content {
+  margin-top: 96px;
+  margin-bottom: 144px;
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    color: #4a4ff2;
+  }
+}
+
+.genesis-header__content-flex {
+  display: flex;
+  justify-content: space-between;
+
+  &-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+    max-width: 640px;
+  }
+
+  &-purple {
+    color: #4a4ff2;
+  }
+
+  &-quote {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    align-self: flex-end;
+    margin-right: 15px;
+    position: relative;
+  }
+
+  // Found this on stackoverflow to get that line right! Made my own modifications ofcourse but the result is what was asked for :)
+
+  &-quote::after {
+    content: '';
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    height: 2px;
+    width: 15%;
+  }
+}

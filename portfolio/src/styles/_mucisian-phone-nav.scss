@@ -1,0 +1,30 @@
+@media screen and (max-width: 320px) {
+  .mucisian-nav {
+    float: none;
+    width: 90%;
+    align-items: flex-start;
+    height: 104px;
+    align-items: flex-start;
+
+    h1 {
+      font-weight: bold;
+      align-self: flex-start;
+      padding-top: 11px;
+      font-size: 24px;
+      font-family: 'baloo 2';
+    }
+
+    &__links {
+      a {
+        visibility: hidden;
+      }
+
+      &::after {
+        content: '...';
+        color: #fff;
+        font-size: 20px;
+        margin-top: 13px;
+      }
+    }
+  }
+}
