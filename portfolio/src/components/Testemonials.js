@@ -1,4 +1,3 @@
-import jacobWestby from "../images/jacobWestby.jpg";
 
 const Testemonials = ({ testemonials }) => {
 

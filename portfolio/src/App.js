@@ -14,7 +14,6 @@ import mucisian from './images/mucisian.png';
 import productly from './images/productly_cropped.png';
 import AboutPage from './components/AboutPage.js';
 import ContactPage from './components/ContactPage.js';
-import jacobWestby from "./images/jacobWestby.jpg";
 import BackArrow from "./images/icons8-back-32.png";
 import linnea from "./images/linnea.jpg";
 import menuBurger from "./images/menuBurger.svg";
@@ -32,8 +31,8 @@ import menuBurger from "./images/menuBurger.svg";
 // Look up how to deploy react project from github to netlify || Complete
 // Fix Links in the burger menu || Completeed
 
-// Fix background on contact for mobile
-// Fix sizing issues for tablet
+// Fix background on contact for mobile || Complete
+// Fix sizing issues for tablet 
 // Fonts?
 
 function App() {
@@ -71,11 +70,6 @@ function App() {
       text: `Jacob använder sin tid väl och finner kreativa lösningar på problem. 
       Det var både roligt och givande att arbeta i grupp med honom.`
     },
-    {
-      name: "Test McTester",
-      img: jacobWestby,
-      text: "omg så jävlabra",
-    },
 
 
   ];
@@ -87,12 +81,6 @@ function App() {
 
     return currentAge;
   };
-
-  // FADES IN SKILL LIST
-
-  // const fadeIn = () => {
-
-  // }
 
   return (
     <BrowserRouter>

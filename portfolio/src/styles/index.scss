@@ -7,7 +7,6 @@
 @import "footer";
 @import "about";
 @import "contactPage";
-@import "projectsPage";
 @import "paralax";
 @import "goBackBtn";
 
@@ -62,7 +61,7 @@
 
 .contact-background {
     @extend %fixedBackground;
-    background-position: 0 -4000px;
+    background-position: 0 -400px;
 }
 
 .projects-background {

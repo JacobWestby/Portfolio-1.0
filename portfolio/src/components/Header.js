@@ -7,10 +7,6 @@ import jacobWestby from "../images/jacobWestby.jpg";
 
 function Header({ calcAge }) {
 
-    // New plan Add li items as displaynone or hidden, check for classname somhow
-    // If show classname is not pressent, add it.
-    // Goal, Fade in individual li items.
-
     useEffect(() => {
         document.querySelectorAll("#tech").forEach((item, index) => {
             setTimeout(() => {
