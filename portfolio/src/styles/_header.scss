@@ -15,7 +15,6 @@
         width: 80%;
 
         ul {
-
             min-width: 20%;
             min-height: 30vh;
 
@@ -31,20 +30,18 @@
                 font-size: 1.9rem;
                 list-style: none;
                 color: $mainColor;
-
+                font-family: 'Chakra Petch', sans-serif;
             }
         }
-
-       
     
         @keyframes fadeIn {
             0% { opacity: 0; }
             100% { opacity: 1; }
-          }
+            }
     }
 
     img {
-            max-width: 30%;
+            width: 10rem;
             border-radius: 3px;
             box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
     }
@@ -101,6 +98,5 @@
                 font-size: 1rem;
             }
         }
-
     }
 }

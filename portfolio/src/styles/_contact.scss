@@ -87,3 +87,12 @@
         }
     }
 }
+
+@include tablet {
+    .contact {
+
+        &__form {
+            width: 75%;
+        }
+    }
+}

@@ -63,3 +63,12 @@
         }
     }
 }
+
+@include tablet {
+    .testemonials {
+
+        &__cont {
+            width: 100%;
+        }
+    }
+}
