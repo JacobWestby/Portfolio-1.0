@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.87dd93bb.css",
+    "main.css": "/static/css/main.b8e2fba0.css",
     "main.js": "/static/js/main.d604ad99.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains.png": "/static/media/mountains.9102d7d453f015d19ec2.png",
@@ -39,22 +39,22 @@
     "static/media/text-content-img2.png": "/static/media/text-content-img2.7eb7214f59a0ac564904.png",
     "static/media/head-shot-S.png": "/static/media/head-shot-S.62040fe19438d3100827.png",
     "static/media/how-it-works.png": "/static/media/how-it-works.ed0175254e717e5829b9.png",
-    "index.html": "/index.html",
     "static/media/twitter-icon.svg": "/static/media/twitter-icon.1a832bb1499d0209d4abab38a40a7e7c.svg",
     "static/media/icons8Github.svg": "/static/media/icons8Github.94d582f2915a5274b68035e4c6a54196.svg",
     "static/media/pintrest-icon.svg": "/static/media/pintrest-icon.47793edfc0926c041a6b04c2e710b926.svg",
+    "index.html": "/index.html",
     "static/media/youtube-icon.svg": "/static/media/youtube-icon.63b5654158b0d7a0183bd3faadf2ad14.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.787aa301244425e7fe5bdcff7917892f.svg",
     "static/media/quote-left-solid.svg": "/static/media/quote-left-solid.c700accb556be981f45f681547ead2f5.svg",
     "static/media/menuBurger.svg": "/static/media/menuBurger.2b1dcf52aa61f8bddcd78d30be87bb66.svg",
     "static/media/icons8Linkedin.svg": "/static/media/icons8Linkedin.beca437ff906ecdaf04245d3f950c09c.svg",
     "static/media/facebook-icon.svg": "/static/media/facebook-icon.d4847ea4ae7ff2dff5ac26e15a874d0a.svg",
-    "main.87dd93bb.css.map": "/static/css/main.87dd93bb.css.map",
+    "main.b8e2fba0.css.map": "/static/css/main.b8e2fba0.css.map",
     "main.d604ad99.js.map": "/static/js/main.d604ad99.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87dd93bb.css",
+    "static/css/main.b8e2fba0.css",
     "static/js/main.d604ad99.js"
   ]
 }

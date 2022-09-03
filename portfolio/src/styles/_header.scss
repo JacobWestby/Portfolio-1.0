@@ -8,6 +8,7 @@
     align-items: center;
     margin-top: 3rem;
     border-radius: 3px;
+    margin-bottom: 10vh;
 
     &-inner {
         display: flex;
@@ -41,7 +42,7 @@
     }
 
     img {
-            width: 10rem;
+            width: 14rem;
             border-radius: 3px;
             box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
     }

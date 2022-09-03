@@ -29,11 +29,12 @@ import menuBurger from "./images/menuBurger.svg";
 // Add images to About page || Scrap
 // Fix social links so they open in new tab || Complete
 // Look up how to deploy react project from github to netlify || Complete
-// Fix Links in the burger menu || Completeed
+// Fix Links in the burger menu || Completed
 
 // Fix background on contact for mobile || Complete
-// Fix sizing issues for tablet 
+// Fix sizing issues for tablet || Complete
 // Fonts?
+// Fix post submit route for contact form
 
 function App() {
 
