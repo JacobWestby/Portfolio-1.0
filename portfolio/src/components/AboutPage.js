@@ -30,10 +30,6 @@ const AboutPage = ({ menuBurger }) => {
                                 <p>I worked in the event industry for several years but my last position before corona hit was at Stockholm International Fairs as Head of Lights and the fairs only Light operator here I got to do all sorts of gigs, everything from several day long conferences to kids dance recitals to live TV with MMA.
                                 </p>
                             </div>
-                            {/* <div className="about__main__cont-1__img-cont">
-                                <img src={ourVan2} alt="Mercedes sprinter van" className="about__main__cont-1__img-cont_img1" />
-                                <img src={jacobWestby2} alt="" className="about__main__cont-1__img-cont_img2" />
-                            </div> */}
                         </div>
                         <h3 className="about__main-heading-mid">What i've studied</h3>
                         <div className="about__main__cont-2">
@@ -42,7 +38,6 @@ const AboutPage = ({ menuBurger }) => {
                                 <p>I completed 85% of codecademy's fullstack course before some life stuff got in the way that led me to taking a break from coding. At this point I had been coding everyday for almost 1 year but working and building our van left no time for me to continue studying.</p>
                                 <p>A few months after moving into the van I started an intensive front-end course that went on for 6 months which ended in May 2022.</p>
                             </div>
-                            {/* <img src={ourVan2} alt="Mercedes sprinter van" className="van" /> */}
                         </div>
                         <h3 className="about__main-heading-bottom">What i do now</h3>
                         <div className="about__main__cont-3">
@@ -53,7 +48,6 @@ const AboutPage = ({ menuBurger }) => {
                                     To that end I am doing some kind of coding everyday, whether that is working on a new or old project, improving my portfolio or contacting possible customers.
                                 </p>
                             </div>
-                            {/* <img src={ourVan2} alt="Mercedes sprinter van" className="van" /> */}
                         </div>
                     </main>
                 </CenteredCont>
