@@ -14,3 +14,9 @@
   width: 100vw;
   height: 325px;
 }
+
+@include phone {
+  .bhramon-how__it-works {
+    height: 22vh;
+  }
+}

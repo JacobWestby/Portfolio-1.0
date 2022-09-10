@@ -13,3 +13,9 @@
     left: 22%;
   }
 }
+
+@include phone {
+  .bhramon-spain__bottom {
+    padding: 0 8rem 2rem 3rem;
+  }
+}

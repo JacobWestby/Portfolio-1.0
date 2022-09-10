@@ -57,3 +57,20 @@
     color: #ffffff;
   }
 }
+
+@include phone {
+  .bhramon-spain__top {
+    padding-left: 5rem;
+  }
+
+  .bhramon-spain__content {
+    width: 60vw;
+    height: fit-content;
+    padding-bottom: 2rem;
+
+    button {
+      width: 35vw;
+      height: 10vh;
+    }
+  }
+}

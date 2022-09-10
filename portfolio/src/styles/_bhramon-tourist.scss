@@ -64,3 +64,31 @@
     }
   }
 }
+
+
+@include phone {
+  .bhramon-tourist__cont {
+    width: 80vw;
+
+    img {
+      display: none;
+    }
+
+    &-text {
+      padding-left: 1rem;
+    
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .bhramon-quote {
+      display: inline-block;
+    }
+  }
+  }
+}

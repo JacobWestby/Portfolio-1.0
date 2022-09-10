@@ -27,7 +27,7 @@ const AboutPage = ({ menuBurger }) => {
                             <div className="about__main__cont-1-text">
                                 <p>Before I started my web development journey I was working as a Lighttechnician in the event industry. Being a lighttech is a very demanding job both physically and mentally, there are a lot of heavy things to carry and push around and there are a lot of problems to solve.
                                 </p>
-                                <p>I worked in the event industry for several years but my last position before corona hit was at Stockholm International Fairs as Head of Lights and the fairs only Lightoperator.
+                                <p>I worked in the event industry for several years but my last position before corona hit was at Stockholm International Fairs as Head of Lights and the fairs only Light operator here I got to do all sorts of gigs, everything from several day long conferences to kids dance recitals to live TV with MMA.
                                 </p>
                             </div>
                             {/* <div className="about__main__cont-1__img-cont">

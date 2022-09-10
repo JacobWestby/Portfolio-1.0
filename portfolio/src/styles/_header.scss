@@ -1,23 +1,71 @@
 
 .home__content {
-    min-height: 70vh;
-    width: 80%;
+    min-height: 50vh;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     margin-top: 3rem;
     border-radius: 3px;
     margin-bottom: 10vh;
 
     &-inner {
         display: flex;
-        align-items: center;
-        width: 80%;
+        justify-content: space-between;
+        align-self: flex-start;
+        width: 60%;
+        min-width: 450px;
+
+
+        &-hello {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            img {
+                width: 13rem;
+                border-radius: 3px;
+                box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
+                margin-bottom: 2rem;
+            }
+
+            &-text {
+                min-height: 15vh;
+                max-width: 14vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 4px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5rem;
+                color: #fff;
+                align-self: flex-start;
+
+                &-typewriter {
+                    margin-top: 1rem;
+                    }
+
+                h1 {
+                    font-size: 1.4rem;
+                }
+}
+}
+
+        &-list {
+
+        h1 {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-top: 0;
+
+        }
 
         ul {
+            display: flex;
+            flex-direction: column;
             min-width: 20%;
-            min-height: 30vh;
+            min-height: 40vh;
+            padding: 0;
 
             #tech {
                 display: none;
@@ -28,12 +76,13 @@
                 color: #fff;
                 transition: all ease-in-out 0.5s;
                 animation: fadeIn 5s;
-                font-size: 1.9rem;
+                font-size: 1.2rem;
                 list-style: none;
                 color: $mainColor;
                 font-family: 'Chakra Petch', sans-serif;
             }
         }
+    }
     
         @keyframes fadeIn {
             0% { opacity: 0; }
@@ -41,63 +90,46 @@
             }
     }
 
-    img {
-            width: 14rem;
-            border-radius: 3px;
-            box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
-    }
-
-    &-text {
-            min-height: 15vh;
-            width: 77%;
-            background-color: rgb(141, 153, 155);
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 4px;
-            box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
-            font-family: 'Montserrat', sans-serif;
-            line-height: 3rem;
-
-        &-typewriter {
-            margin-top: 1rem;
-        }
-    }
 }
 
 @include phone {
     .home__content {
-        padding-top: 2rem;
-        min-height: 30vh;
-        flex-direction: column;
-        img {
-            max-width: 50%;
-            box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
-        }
+        width: 70%;
 
-        &-text {
-            min-height: 10vh;
-            min-width: 85%;
-            background-color: rgb(141, 153, 155);
-            padding: 0.1rem;
-            border-radius: 4px;
-            box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
-            font-size: 0.4rem;
-            line-height: 1rem;
-        }
+        &-inner {
+            width: 100%;
+            min-width: 210px;
 
-        ul {
-            margin-top: 5vh;
-            min-height: 20vh;
-            min-width: 40%;
-            list-style: none;
 
-            #show {
-                margin-bottom: 2px;
-                font-size: 1rem;
+            &-hello {
+                width: 60%;
+
+                img {
+                width: 25vw;
+                }
+
+                &-text {
+                    max-width: 24vw;
+                    line-height: 1rem;
+
+                    h1 {
+                        font-size: 0.8rem;
+                    }
+    }
+}
+
+            &-list {
+                h1 {
+                    font-size: 1rem;
+                }
+
+                ul {
+
+                #show {
+                    font-size: 0.8rem;
+                }
             }
+        }
         }
     }
 }

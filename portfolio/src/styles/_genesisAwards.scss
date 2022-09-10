@@ -127,3 +127,26 @@
   grid-column: 8 / 8;
   grid-row: 3 / 3;
 }
+
+@include phone {
+
+  .genesis-awards__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 0;
+    // position: relative;
+    // top: 28rem;
+  }
+
+  .genesis-design__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    // position: relative;
+    // top: 28rem;
+  }
+}

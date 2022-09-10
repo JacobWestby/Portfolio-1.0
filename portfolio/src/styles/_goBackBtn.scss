@@ -13,3 +13,11 @@
     margin: 3rem 2rem;
     box-shadow: rgb(232, 187, 133, 0.5) 1px 1px 1px;
 }
+
+@include phone {
+    .GoBackBtn {
+        height: 3rem;
+        width: 3rem;
+    }
+ 
+}

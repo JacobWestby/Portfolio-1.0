@@ -30,3 +30,16 @@
     opacity: 0.6;
   }
 }
+
+@include phone {
+  .genesis-text__content {
+    flex-direction: column;
+    max-height: 600px;
+    
+    &-items-cont {
+      width: 80%;
+      flex-direction: column;
+      height: 300px;
+    }
+  }
+}

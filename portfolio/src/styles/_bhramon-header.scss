@@ -104,3 +104,44 @@
     }
   }
 }
+
+@include phone {
+  .bhramon-search {
+    align-items: center;
+    min-height: 400px;
+
+
+    &__text {
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    &__search {
+      width: 90%;
+      
+      form {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        min-height: 150px;
+        
+        input[type='text'] {
+          width: 90%;
+          height: 43px;
+          border: none;
+        }
+
+        input[type='button'] {
+          height: 40px;
+        }
+  }
+}
+}
+}
