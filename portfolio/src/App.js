@@ -33,8 +33,13 @@ import menuBurger from "./images/menuBurger.svg";
 
 // Fix background on contact for mobile || Complete
 // Fix sizing issues for tablet || Complete
-// Fonts?
-// Fix post submit route for contact form
+// Fonts? || Complete
+// Fix post submit route for contact form || Complete
+
+// Fix Gobackbtn for small screensize || Complete
+// Add heading to landing || Complete
+// Reduce fontsize for tech list || Complete
+// Change background for typewriter? || Complete
 
 function App() {
 
@@ -69,7 +74,8 @@ function App() {
       name: "Linnea Andersson",
       img: linnea,
       text: `Jacob använder sin tid väl och finner kreativa lösningar på problem. 
-      Det var både roligt och givande att arbeta i grupp med honom.`
+      Det var både roligt och givande att arbeta i grupp med honom.`,
+      id: 1,
     },
 
 

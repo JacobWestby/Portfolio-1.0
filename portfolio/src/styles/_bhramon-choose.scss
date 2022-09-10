@@ -66,3 +66,39 @@
     }
   }
 }
+
+@include phone {
+  .bhramon-choose__background {
+    height: 450px;
+  }
+
+  .bhramon-choose__ {
+    height: fit-content;
+
+    &content {
+      height: fit-content;
+
+      h3 {
+        font-size: 1.5rem;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 0.8rem;
+        height: fit-content;
+      }
+    }
+
+    &images {
+      align-self: flex-start;
+      margin-top: 8rem;
+      justify-content: space-evenly;
+      min-height: 500px;
+      display: none;
+
+      img {
+        max-width: 180px;
+      }
+    }
+  }
+}

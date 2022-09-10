@@ -6,7 +6,7 @@
   align-items: center;
   margin-bottom: 48px;
 
-  .genesis-footer__links {
+  &__links {
     display: flex;
     justify-content: space-between;
     width: 378px;
@@ -34,6 +34,31 @@
 
       img {
         height: 15px;
+      }
+    }
+  }
+}
+
+@include phone {
+  .genesis-footer {
+    margin-bottom: 0;
+    height: 40px;
+    justify-content: space-evenly;
+    min-width: 320px;
+    align-self: center;
+
+    &__logo {
+      font-size: 1rem;
+    }
+
+    &__links {
+      width: auto;
+
+      &-pages {
+
+        a {
+          font-size: 0.8rem;
+        }
       }
     }
   }

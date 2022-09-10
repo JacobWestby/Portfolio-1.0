@@ -73,7 +73,7 @@ const ProductlyProject = ({ BackArrow }) => {
                         <h3>Custom Design designers</h3>
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
-                    <img src={require("../images/text-content-img1.png")} alt="Illustration of person recieving messages" className="productly-text__content-img-1" />
+                    <img src={require("../images/text-content-img1.png")} alt="Illustration of person recieving messages" className="productly-text__content-1-img-1" />
                 </section>
 
 
@@ -97,7 +97,7 @@ const ProductlyProject = ({ BackArrow }) => {
                             </div>
                         </div>
                     </div>
-                    <img src={require("../images/text-content-img2.png")} alt="Illustration of person sending messages" className="productly-text__content-img-2" />
+                    <img src={require("../images/text-content-img2.png")} alt="Illustration of person sending messages" className="productly-text__content-2-img-2" />
                 </section>
 
 
@@ -113,7 +113,7 @@ const ProductlyProject = ({ BackArrow }) => {
                         <h3>Custom Design designers</h3>
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
-                    <img src={require("../images/text-content-img3.png")} alt="Illustration of person recieving messages" className="productly-text__content-img-3" />
+                    <img src={require("../images/text-content-img3.png")} alt="Illustration of person recieving messages" className="productly-text__content-3-img-3" />
                 </section>
             </main>
 

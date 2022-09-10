@@ -74,3 +74,22 @@
     grid-row: 27 / 32;
   }
 }
+
+@include phone {
+  .genesis-body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    // height: 140%;
+
+  }
+
+  .genesis-grid__container {
+    display: block;
+    max-height: fit-content;
+
+    .grid-item {
+      max-width: 100%;
+    }
+  }
+}

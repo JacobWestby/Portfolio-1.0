@@ -1,10 +1,10 @@
 .genesis-header__content {
   margin-top: 96px;
   margin-bottom: 144px;
+
   h2 {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
     line-height: 28px;
     letter-spacing: -0.423077px;
     color: #4a4ff2;
@@ -52,5 +52,14 @@
     left: 0;
     height: 2px;
     width: 15%;
+  }
+}
+
+@include phone {
+  .genesis-header__content-flex {
+    &-text {
+      font-size: 1.5rem;
+      line-height: 20px;
+    }
   }
 }

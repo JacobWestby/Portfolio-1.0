@@ -4,7 +4,7 @@ const Testemonials = ({ testemonials }) => {
     return (
         <div className="testemonials">
             {testemonials.map((testemonial) => (
-                <div className="testemonials__cont">
+                <div className="testemonials__cont" key={testemonial.id}>
                     <div className="testemonials__cont-inner">
                         <img src={testemonial.img} alt="Profile" />
                         <p>{testemonial.name}</p>

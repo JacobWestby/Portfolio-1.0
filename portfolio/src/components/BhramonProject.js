@@ -31,7 +31,7 @@ const BhramonProject = ({ BackArrow }) => {
                     </div>
                 </div>
 
-                <nav>
+                <div className="bhramon-nav">
                     <div className="bhramon-nav__cont">
                         <h2 className="bhramon-nav__cont-logo" id="scroll">BHROMAON</h2>
                         <ul className="bhramon-nav__cont-links">
@@ -41,7 +41,7 @@ const BhramonProject = ({ BackArrow }) => {
                             <li><a href="#">contact us</a></li>
                         </ul>
                     </div>
-                </nav>
+                </div>
             </header>
 
             <main className="bhramon-main">
