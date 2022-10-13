@@ -9,12 +9,12 @@ import icons8Github from "../images/icons8Github.svg";
 import icons8Linkedin from "../images/icons8Linkedin.svg";
 
 
-const Home = ({ calcAge, projects, testemonials, menuBurger }) => {
+const Home = ({ calcAge, projects, testemonials, menuBurger, newProject }) => {
 
     return (
         <div className="home-background">
             <header>
-                <Nav menuBurger={menuBurger}/>  
+                <Nav menuBurger={menuBurger} />
                 <CenteredCont>
                     <Header calcAge={calcAge} />
                 </CenteredCont>
@@ -22,7 +22,7 @@ const Home = ({ calcAge, projects, testemonials, menuBurger }) => {
             <CenteredCont>
                 <div className="paralaxTop"></div>
                 <main>
-                    <Projects projects={projects} />
+                    <Projects projects={projects} newProject={newProject} />
                     <div className="paralaxMid"></div>
                     <Testemonials testemonials={testemonials} />
                     <div className="paralaxBottom"></div>

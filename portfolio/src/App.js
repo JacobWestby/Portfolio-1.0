@@ -17,6 +17,8 @@ import ContactPage from './components/ContactPage.js';
 import BackArrow from "./images/icons8-back-32.png";
 import linnea from "./images/linnea.jpg";
 import menuBurger from "./images/menuBurger.svg";
+import showcase from "./images/showcase_cropped.png"
+import shoe from "./images/shoe_cropped.jpg";
 
 // TODO
 
@@ -42,6 +44,21 @@ import menuBurger from "./images/menuBurger.svg";
 // Change background for typewriter? || Complete
 
 function App() {
+  // NEW PROJECTS ARRAY
+  const newProject = [
+    {
+      img: shoe,
+      id: 1,
+      name: "shoe store",
+      link: "https://gentle-semolina-de0752.netlify.app/"
+    },
+    {
+      img: showcase,
+      id: 2,
+      name: "Showcase",
+      link: "https://jacobwestby-showcase.com/"
+    }
+  ]
 
   // PROJECTS ARRAY 
   const projects = [
@@ -65,6 +82,7 @@ function App() {
       id: 4,
       name: "bhramon",
     },
+
 
   ];
 
@@ -93,7 +111,7 @@ function App() {
     <BrowserRouter>
       {/* <GoBackBtn /> */}
       <Routes>
-        <Route exact path="/" element={<Home menuBurger={menuBurger} calcAge={calcAge()} projects={projects} testemonials={testemonials} />} />
+        <Route exact path="/" element={<Home menuBurger={menuBurger} calcAge={calcAge()} projects={projects} newProject={newProject} testemonials={testemonials} />} />
         <Route path="/components/aboutpage" element={<AboutPage menuBurger={menuBurger} />} />
         <Route path="/components/contactpage" element={<ContactPage menuBurger={menuBurger} />} />
         <Route path="/components/mucisianproject" element={<MucisianProject BackArrow={BackArrow} />} />
